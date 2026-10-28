@@ -1,0 +1,58 @@
+features: 600 windows, 60 recordings, 20 units; SNR gate 11.52 dB; k = 3; fleets 2000 x 20 bearings (seed 0)
+[fold] unit  1: tau usulan 0.436, tau rms 0.049
+[fold] unit  2: tau usulan 0.471, tau rms 0.048
+[fold] unit  3: tau usulan 0.475, tau rms 0.048
+[fold] unit  4: tau usulan 0.450, tau rms 0.048
+[fold] unit  5: tau usulan 0.467, tau rms 0.048
+[fold] unit  6: tau usulan 0.454, tau rms 0.046
+[fold] unit  7: tau usulan 0.486, tau rms 0.032
+[fold] unit  8: tau usulan 0.495, tau rms 0.011
+[fold] unit  9: tau usulan 0.474, tau rms 0.027
+[fold] unit 10: tau usulan 0.464, tau rms 0.029
+[fold] unit 11: tau usulan 0.484, tau rms 0.029
+[fold] unit 12: tau usulan 0.481, tau rms 0.049
+[fold] unit 13: tau usulan 0.491, tau rms 0.042
+[fold] unit 14: tau usulan 0.448, tau rms 0.034
+[fold] unit 15: tau usulan 0.427, tau rms 0.026
+[fold] unit 16: tau usulan 0.421, tau rms 0.035
+[fold] unit 17: tau usulan 0.426, tau rms 0.035
+[fold] unit 18: tau usulan 0.468, tau rms 0.033
+[fold] unit 19: tau usulan 0.482, tau rms 0.029
+[fold] unit 20: tau usulan 0.473, tau rms 0.032
+[rekaman] usulan: dijawab 53/60, TIDAK TAHU sinyal 2, ragu 5; status benar pada yang dijawab 36/53
+[rekaman] rms_gate: dijawab 50/60, TIDAK TAHU sinyal 2, ragu 8; status benar pada yang dijawab 34/50
+
+PRIMER presisi@3 (perlu cek) di 2000 armada simulasi; dasar acak = 0.667
+  prec_perlu_cek       usulan 0.971 [0.667; 1.000]  rms_gate 0.952 [0.667; 1.000]  selisih +0.019 [-0.333; +0.333] (seri 0.87)
+  prec_rusak           usulan 0.453 [0.000; 1.000]  rms_gate 0.412 [0.000; 1.000]  selisih +0.042 [-0.667; +0.667] (seri 0.39)
+  n_sehat_in_audit     usulan 0.087 [0.000; 1.000]  rms_gate 0.145 [0.000; 1.000]  selisih -0.058 [-1.000; +1.000] (seri 0.87)
+  fault_to_ukur_ulang  usulan 0.176 [0.000; 0.400]  rms_gate 0.222 [0.000; 0.462]  selisih -0.046 [-0.308; +0.214] (seri 0.21)
+  fault_to_aman        usulan 0.074 [0.000; 0.250]  rms_gate 0.101 [0.000; 0.286]  selisih -0.027 [-0.182; +0.111] (seri 0.44)
+  n_audit              usulan 3.000 [3.000; 3.000]  rms_gate 3.000 [3.000; 3.000]  selisih +0.000 [+0.000; +0.000] (seri 1.00)
+
+SEKUNDER: seluruh 60 rekaman sebagai satu armada
+   model  k  n_audit  prec_perlu_cek  prec_rusak  n_sehat_in_audit  fault_to_ukur_ulang  fault_to_aman
+  usulan  3        3           1.000       0.333                 0                0.175          0.075
+  usulan  5        5           1.000       0.200                 0                0.175          0.075
+  usulan 10       10           1.000       0.500                 0                0.175          0.075
+rms_gate  3        3           1.000       0.667                 0                0.225          0.100
+rms_gate  5        5           1.000       0.400                 0                0.225          0.100
+rms_gate 10       10           0.900       0.300                 1                0.225          0.100
+
+antrean x label asli, usulan, k = 3 (60 rekaman):
+label_asli  sehat  waspada  rusak
+antrean                          
+AUDIT DULU      0        2      1
+PANTAU          1       12     15
+UKUR ULANG      0        4      3
+AMAN           19        2      1
+
+antrean x label asli, rms_gate, k = 3 (60 rekaman):
+label_asli  sehat  waspada  rusak
+antrean                          
+AUDIT DULU      0        1      2
+PANTAU          1       12     12
+UKUR ULANG      1        4      5
+AMAN           18        3      1
+
+runtime 243 s

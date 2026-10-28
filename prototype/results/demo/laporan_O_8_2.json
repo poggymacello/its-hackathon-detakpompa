@@ -1,0 +1,42 @@
+{
+  "file": "data/ottawa_uored_vafcls/mat/O_8_2.mat",
+  "unit_note": "berkas dikenali sebagai bearing #8 dataset Ottawa; semua rekaman unit itu DIKELUARKAN dari data latih (anti-bocor). Label asli: state 2 (tidak dipakai model).",
+  "fs": 42000.0,
+  "duration_s": 10.0,
+  "tau_conf": 0.49463761904761916,
+  "snr_min": 11.517814866541626,
+  "deviation": null,
+  "n_windows": 10,
+  "n_ok": 10,
+  "proba": [
+    0.35783888888888893,
+    0.31525793650793654,
+    0.32690317460317464
+  ],
+  "status": -1,
+  "abstain_reason": "ragu",
+  "priority": null,
+  "priority_provisional": 0.4845321428571429,
+  "queue": "UKUR ULANG",
+  "snr_db": 39.636762251851195,
+  "shaft_hz": 29.8004150390625,
+  "abstain_reason_text": "model ragu: probabilitas tertinggi 0.36 < ambang 0.49",
+  "next_step": "Ukur ulang 30 detik di titik yang sama, lalu bandingkan dengan rekaman baseline unit ini (mode --baseline). Bila tetap ragu: cek dengan flowmeter portable + manometer untuk melihat apakah kinerja hidrolik pompa turun.",
+  "top_features": [
+    [
+      "std",
+      7.908242146407854,
+      3.200793842378763
+    ],
+    [
+      "rms",
+      7.9082923146557,
+      3.200843975753807
+    ],
+    [
+      "p2p",
+      207.75508163975303,
+      31.76997605837771
+    ]
+  ]
+}

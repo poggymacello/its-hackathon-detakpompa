@@ -1,0 +1,24 @@
+========================================================================
+LAPORAN KESEHATAN POMPA (DetakPompa, purwarupa TKT 3, triase)
+========================================================================
+Berkas       : results/demo_inputs/I_3_1_derau_-10dB.npy
+Durasi       : 10.0 s, 10 jendela x 1 s, fs = 42000 Hz
+STATUS       : TIDAK TAHU
+Alasan abstain: garis putaran poros tidak terlihat jelas di atas derau (0/10 jendela lolos; SNR median 4.7 dB < ambang 11.5 dB, atau sinyal terpotong/datar)
+LANGKAH BERIKUTNYA: Ukur ulang 30 detik dengan sensor dipasang kencang di bearing housing (magnet/baut, bukan selotip), arah radial; pastikan pompa berjalan pada putaran normal dan kabel sensor tidak longgar.
+Catatan      : TIDAK TAHU bukan berarti aman. Di uji leave-one-bearing-out, 69 dari 76 jendela TIDAK TAHU (91 %) berasal dari bantalan berkembang/rusak.
+Antrean      : UKUR ULANG
+Prioritas cek: - (tidak diurutkan; masuk antrean UKUR ULANG. Sinyal tidak bisa dipercaya, jadi tidak ada prioritas sampai diukur ulang)
+Probabilitas : sehat 0.03 | waspada 0.29 | rusak 0.68 (ambang yakin 0.49) [TIDAK DIPAKAI: sinyal ditolak]
+Kualitas sinyal: SNR garis poros 4.7 dB (ambang 11.5 dB), frekuensi poros terlacak 20.51 Hz (~1230 rpm), 0/10 jendela lolos gerbang sinyal
+Fitur dominan (nilai rekaman ini vs median unit sehat di data latih):
+   - p2p            =    597.254   (median sehat     33.735)
+   - std            =     68.442   (median sehat      3.341)
+   - rms            =     68.445   (median sehat      3.341)
+
+CATATAN ENERGI [SKENARIO, BUKAN PENGUKURAN]
+- Konteks: biaya energi PDAM Surya Sembada 2021 Rp147.654.439.569 (24.37 % opex); pompa distribusi T1 IPA Ngagel I terukur 49.77 % lewat audit manual. [S6: Indra dkk., JIST 5(2) 2024, IPA Ngagel I, PDAM Surya Sembada (audit manual)]
+- Skenario: bila pompa yang ditandai ternyata aus seperti kasus S10 (efisiensi 65.2 % -> 53.6 %), daya naik 270 -> 285 hp (+5.6 %) sambil debit turun 4100 -> 3900 gpm, yaitu energi per volume +11.0 % (aritmetika dari angka S10). [S10: Nelik, Pumps & Systems, 3 Okt 2016 (satu kasus lapangan, celah wear-ring)]
+- Status di atas TIDAK mengukur efisiensi atau kWh. Efisiensi butuh debit + head + daya listrik (flowmeter, manometer, power meter). Fungsi alat ini: memilih pompa mana yang diaudit duluan.
+
+Batas klaim: model dilatih di rig bantalan Ottawa (bukan pompa PDAM). Validasi lab sendiri (TKT 4) dan data pompa PDAM (TKT 5) belum dilakukan.

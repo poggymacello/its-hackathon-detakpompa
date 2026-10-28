@@ -1,0 +1,7 @@
+model,k,n_audit,prec_perlu_cek,prec_rusak,n_sehat_in_audit,fault_to_ukur_ulang,fault_to_aman
+usulan,3,3,1.0,0.3333333333333333,0,0.175,0.075
+usulan,5,5,1.0,0.2,0,0.175,0.075
+usulan,10,10,1.0,0.5,0,0.175,0.075
+rms_gate,3,3,1.0,0.6666666666666666,0,0.225,0.1
+rms_gate,5,5,1.0,0.4,0,0.225,0.1
+rms_gate,10,10,0.9,0.3,1,0.225,0.1

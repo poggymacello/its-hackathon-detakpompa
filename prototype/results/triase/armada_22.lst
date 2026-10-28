@@ -1,0 +1,26 @@
+# Armada contoh 22 'pompa' (jumlah pompa IPA Ngagel I [S6]); BUKAN pompa: bearing Ottawa sebagai pengganti.
+# 20 bearing, satu rekaman per bearing dipilih acak (numpy default_rng(2026), dipilih tanpa melihat hasil),
+# ditambah 2 input semi-sintetis dari results/demo_inputs (derau -10 dB pada I_3_1, dan sensor lepas = derau murni).
+# Path relatif terhadap folder prototype/.
+data/ottawa_uored_vafcls/mat/I_1_2.mat
+data/ottawa_uored_vafcls/mat/H_2_0.mat
+data/ottawa_uored_vafcls/mat/H_3_0.mat
+data/ottawa_uored_vafcls/mat/I_4_1.mat
+data/ottawa_uored_vafcls/mat/I_5_1.mat
+data/ottawa_uored_vafcls/mat/O_6_1.mat
+data/ottawa_uored_vafcls/mat/H_7_0.mat
+data/ottawa_uored_vafcls/mat/O_8_1.mat
+data/ottawa_uored_vafcls/mat/O_9_1.mat
+data/ottawa_uored_vafcls/mat/O_10_1.mat
+data/ottawa_uored_vafcls/mat/B_11_2.mat
+data/ottawa_uored_vafcls/mat/B_12_2.mat
+data/ottawa_uored_vafcls/mat/B_13_2.mat
+data/ottawa_uored_vafcls/mat/B_14_2.mat
+data/ottawa_uored_vafcls/mat/B_15_2.mat
+data/ottawa_uored_vafcls/mat/H_16_0.mat
+data/ottawa_uored_vafcls/mat/C_17_2.mat
+data/ottawa_uored_vafcls/mat/C_18_1.mat
+data/ottawa_uored_vafcls/mat/H_19_0.mat
+data/ottawa_uored_vafcls/mat/H_20_0.mat
+results/demo_inputs/I_3_1_derau_-10dB.npy
+results/demo_inputs/sensor_lepas.npy

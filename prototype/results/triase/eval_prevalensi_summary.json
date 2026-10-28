@@ -1,0 +1,320 @@
+{
+  "protocol": "5000 fleets x 22 pumps, fixed n_bad in [3, 5]; per-unit bootstrap of healthy and problem slots; same LOUO recording decisions; k=3; seed 0",
+  "healthy_flagged": {
+    "usulan": [
+      "H_13_0"
+    ],
+    "rms_gate": [
+      "H_13_0"
+    ]
+  },
+  "healthy_flagged_by_both": [
+    "H_13_0"
+  ],
+  "scenarios": {
+    "3": {
+      "n_bad": 3,
+      "base_rate_perlu_cek": 0.13636363636363635,
+      "n_fleets": 5000,
+      "usulan_prec_perlu_cek": {
+        "mean": 0.70700871898055,
+        "lo": 0.0,
+        "hi": 1.0,
+        "n": 4970
+      },
+      "rms_gate_prec_perlu_cek": {
+        "mean": 0.6824543610547668,
+        "lo": 0.0,
+        "hi": 1.0,
+        "n": 4930
+      },
+      "diff_prec_perlu_cek": {
+        "mean": 0.022249355582688916,
+        "lo": -0.3333333333333333,
+        "hi": 0.33333333333333337,
+        "share_eq_0": 0.8251933251933252,
+        "share_gt_0": 0.12311762311762312,
+        "share_lt_0": 0.05168905168905169,
+        "n": 4914
+      },
+      "usulan_prec_rusak": {
+        "mean": 0.3712608987256874,
+        "lo": 0.0,
+        "hi": 1.0,
+        "n": 4970
+      },
+      "rms_gate_prec_rusak": {
+        "mean": 0.34729546991210275,
+        "lo": 0.0,
+        "hi": 1.0,
+        "n": 4930
+      },
+      "diff_prec_rusak": {
+        "mean": 0.022486772486772486,
+        "lo": -0.33333333333333337,
+        "hi": 0.5,
+        "share_eq_0": 0.7049247049247049,
+        "share_gt_0": 0.1794871794871795,
+        "share_lt_0": 0.11558811558811559,
+        "n": 4914
+      },
+      "usulan_catch_at_k": {
+        "mean": 0.6034666666666666,
+        "lo": 0.0,
+        "hi": 1.0,
+        "n": 5000
+      },
+      "rms_gate_catch_at_k": {
+        "mean": 0.5458666666666667,
+        "lo": 0.0,
+        "hi": 1.0,
+        "n": 5000
+      },
+      "diff_catch_at_k": {
+        "mean": 0.0576,
+        "lo": -0.33333333333333337,
+        "hi": 0.6666666666666666,
+        "share_eq_0": 0.6694,
+        "share_gt_0": 0.2388,
+        "share_lt_0": 0.0918,
+        "n": 5000
+      },
+      "usulan_any_sehat_in_audit": {
+        "mean": 0.6086,
+        "lo": 0.0,
+        "hi": 1.0,
+        "n": 5000
+      },
+      "rms_gate_any_sehat_in_audit": {
+        "mean": 0.6164,
+        "lo": 0.0,
+        "hi": 1.0,
+        "n": 5000
+      },
+      "diff_any_sehat_in_audit": {
+        "mean": -0.0078,
+        "lo": 0.0,
+        "hi": 0.0,
+        "share_eq_0": 0.985,
+        "share_gt_0": 0.0036,
+        "share_lt_0": 0.0114,
+        "n": 5000
+      },
+      "usulan_n_sehat_in_audit": {
+        "mean": 0.8326,
+        "lo": 0.0,
+        "hi": 3.0,
+        "n": 5000
+      },
+      "rms_gate_n_sehat_in_audit": {
+        "mean": 0.8632,
+        "lo": 0.0,
+        "hi": 3.0,
+        "n": 5000
+      },
+      "diff_n_sehat_in_audit": {
+        "mean": -0.0306,
+        "lo": -1.0,
+        "hi": 1.0,
+        "share_eq_0": 0.91,
+        "share_gt_0": 0.033,
+        "share_lt_0": 0.057,
+        "n": 5000
+      },
+      "usulan_audit_empty": {
+        "mean": 0.006,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n": 5000
+      },
+      "rms_gate_audit_empty": {
+        "mean": 0.014,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n": 5000
+      },
+      "diff_audit_empty": {
+        "mean": -0.008,
+        "lo": 0.0,
+        "hi": 0.0,
+        "share_eq_0": 0.9856,
+        "share_gt_0": 0.0032,
+        "share_lt_0": 0.0112,
+        "n": 5000
+      },
+      "usulan_n_audit": {
+        "mean": 2.643,
+        "lo": 1.0,
+        "hi": 3.0,
+        "n": 5000
+      },
+      "rms_gate_n_audit": {
+        "mean": 2.5008,
+        "lo": 1.0,
+        "hi": 3.0,
+        "n": 5000
+      },
+      "diff_n_audit": {
+        "mean": 0.1422,
+        "lo": -1.0,
+        "hi": 1.0,
+        "share_eq_0": 0.759,
+        "share_gt_0": 0.1822,
+        "share_lt_0": 0.0588,
+        "n": 5000
+      }
+    },
+    "5": {
+      "n_bad": 5,
+      "base_rate_perlu_cek": 0.22727272727272727,
+      "n_fleets": 5000,
+      "usulan_prec_perlu_cek": {
+        "mean": 0.79124983326664,
+        "lo": 0.3333333333333333,
+        "hi": 1.0,
+        "n": 4998
+      },
+      "rms_gate_prec_perlu_cek": {
+        "mean": 0.7649435650838176,
+        "lo": 0.3333333333333333,
+        "hi": 1.0,
+        "n": 4991
+      },
+      "diff_prec_perlu_cek": {
+        "mean": 0.02602391928910269,
+        "lo": -0.33333333333333337,
+        "hi": 0.5,
+        "share_eq_0": 0.8089797554620164,
+        "share_gt_0": 0.12667869312487473,
+        "share_lt_0": 0.06434155141310884,
+        "n": 4989
+      },
+      "usulan_prec_rusak": {
+        "mean": 0.4337401627317594,
+        "lo": 0.0,
+        "hi": 1.0,
+        "n": 4998
+      },
+      "rms_gate_prec_rusak": {
+        "mean": 0.3884992987377279,
+        "lo": 0.0,
+        "hi": 1.0,
+        "n": 4991
+      },
+      "diff_prec_rusak": {
+        "mean": 0.04499899779514933,
+        "lo": -0.33333333333333337,
+        "hi": 0.6666666666666666,
+        "share_eq_0": 0.5884946883142914,
+        "share_gt_0": 0.2631789937863299,
+        "share_lt_0": 0.14832631789937864,
+        "n": 4989
+      },
+      "usulan_catch_at_k": {
+        "mean": 0.7735333333333334,
+        "lo": 0.3333333333333333,
+        "hi": 1.0,
+        "n": 5000
+      },
+      "rms_gate_catch_at_k": {
+        "mean": 0.7294,
+        "lo": 0.3333333333333333,
+        "hi": 1.0,
+        "n": 5000
+      },
+      "diff_catch_at_k": {
+        "mean": 0.04413333333333334,
+        "lo": -0.33333333333333337,
+        "hi": 0.6666666666666667,
+        "share_eq_0": 0.7316,
+        "share_gt_0": 0.1856,
+        "share_lt_0": 0.0828,
+        "n": 5000
+      },
+      "usulan_any_sehat_in_audit": {
+        "mean": 0.4964,
+        "lo": 0.0,
+        "hi": 1.0,
+        "n": 5000
+      },
+      "rms_gate_any_sehat_in_audit": {
+        "mean": 0.5326,
+        "lo": 0.0,
+        "hi": 1.0,
+        "n": 5000
+      },
+      "diff_any_sehat_in_audit": {
+        "mean": -0.0362,
+        "lo": -1.0,
+        "hi": 1.0,
+        "share_eq_0": 0.9014,
+        "share_gt_0": 0.0312,
+        "share_lt_0": 0.0674,
+        "n": 5000
+      },
+      "usulan_n_sehat_in_audit": {
+        "mean": 0.6234,
+        "lo": 0.0,
+        "hi": 2.0,
+        "n": 5000
+      },
+      "rms_gate_n_sehat_in_audit": {
+        "mean": 0.6968,
+        "lo": 0.0,
+        "hi": 2.0,
+        "n": 5000
+      },
+      "diff_n_sehat_in_audit": {
+        "mean": -0.0734,
+        "lo": -1.0,
+        "hi": 1.0,
+        "share_eq_0": 0.822,
+        "share_gt_0": 0.061,
+        "share_lt_0": 0.117,
+        "n": 5000
+      },
+      "usulan_audit_empty": {
+        "mean": 0.0004,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n": 5000
+      },
+      "rms_gate_audit_empty": {
+        "mean": 0.0018,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n": 5000
+      },
+      "diff_audit_empty": {
+        "mean": -0.0014,
+        "lo": 0.0,
+        "hi": 0.0,
+        "share_eq_0": 0.9978,
+        "share_gt_0": 0.0004,
+        "share_lt_0": 0.0018,
+        "n": 5000
+      },
+      "usulan_n_audit": {
+        "mean": 2.944,
+        "lo": 2.0,
+        "hi": 3.0,
+        "n": 5000
+      },
+      "rms_gate_n_audit": {
+        "mean": 2.885,
+        "lo": 2.0,
+        "hi": 3.0,
+        "n": 5000
+      },
+      "diff_n_audit": {
+        "mean": 0.059,
+        "lo": 0.0,
+        "hi": 1.0,
+        "share_eq_0": 0.9088,
+        "share_gt_0": 0.0694,
+        "share_lt_0": 0.0218,
+        "n": 5000
+      }
+    }
+  }
+}

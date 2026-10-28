@@ -1,0 +1,29 @@
+{
+  "protocol": "leave-one-bearing-out 20 folds, per-unit bootstrap 2000 (seed 0), identical SNR gate",
+  "snr_min_db": 11.517814866541626,
+  "gate_coverage": 0.955,
+  "rf_spec_op_coverage": 0.8733333333333333,
+  "aurc": {
+    "rms_rule": {
+      "aurc_ungated": 0.30597064561228016,
+      "aurc_gated": 0.2912503599415167
+    },
+    "rf_spec": {
+      "aurc_ungated": 0.23494317749875643,
+      "aurc_gated": 0.22916694242848473
+    },
+    "rf_spec_plus_rmsrule": {
+      "aurc_ungated": 0.23157848123945934,
+      "aurc_gated": 0.22736948429340983
+    }
+  },
+  "reproducibility": {
+    "rf_spec_pred_identical": true,
+    "rms_rule_pred_identical": true,
+    "rf_spec_accept_identical": true,
+    "rf_spec_max_abs_proba_diff": 2.220446049250313e-16,
+    "degradation_rf_spec_pred_identical": true,
+    "degradation_quality_ok_identical": true
+  },
+  "runtime_s": 608.4391419887543
+}

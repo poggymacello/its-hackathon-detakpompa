@@ -1,0 +1,42 @@
+{
+  "file": "results/demo_inputs/I_3_1_derau_-10dB.npy",
+  "unit_note": null,
+  "fs": 42000.0,
+  "duration_s": 10.0,
+  "tau_conf": 0.4947118253968254,
+  "snr_min": 11.517814866541626,
+  "deviation": null,
+  "n_windows": 10,
+  "n_ok": 0,
+  "proba": [
+    0.028499999999999998,
+    0.2885166666666667,
+    0.6829833333333333
+  ],
+  "status": -1,
+  "abstain_reason": "sinyal",
+  "priority": null,
+  "priority_provisional": null,
+  "queue": "UKUR ULANG",
+  "snr_db": 4.701052167595298,
+  "shaft_hz": 20.5078125,
+  "abstain_reason_text": "garis putaran poros tidak terlihat jelas di atas derau (0/10 jendela lolos; SNR median 4.7 dB < ambang 11.5 dB, atau sinyal terpotong/datar)",
+  "next_step": "Ukur ulang 30 detik dengan sensor dipasang kencang di bearing housing (magnet/baut, bukan selotip), arah radial; pastikan pompa berjalan pada putaran normal dan kabel sensor tidak longgar.",
+  "top_features": [
+    [
+      "p2p",
+      597.2543340336653,
+      33.7347479011476
+    ],
+    [
+      "std",
+      68.44210452745781,
+      3.34081255284793
+    ],
+    [
+      "rms",
+      68.44503450991641,
+      3.3408726483872018
+    ]
+  ]
+}

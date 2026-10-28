@@ -1,0 +1,48 @@
+[features] computed 600 windows in 11.0s -> C:\Users\POGGY\Downloads\barengpoggy\ITSHackathon2026\prototype\results\features.csv
+[gate] SNR threshold (CFAR on white noise, pfa=1%) = 11.52 dB
+[data] windows=600 recordings=60 units=20 class counts=[200, 200, 200]
+[fold] unit  1: bacc rf_spec=0.667 rf_stat=0.400 tau=0.438 snr_min=11.5
+[fold] unit  2: bacc rf_spec=0.800 rf_stat=0.367 tau=0.462 snr_min=11.5
+[fold] unit  3: bacc rf_spec=0.667 rf_stat=0.667 tau=0.467 snr_min=11.5
+[fold] unit  4: bacc rf_spec=0.667 rf_stat=0.800 tau=0.437 snr_min=11.5
+[fold] unit  5: bacc rf_spec=0.433 rf_stat=0.267 tau=0.446 snr_min=11.5
+[fold] unit  6: bacc rf_spec=0.667 rf_stat=0.700 tau=0.444 snr_min=11.5
+[fold] unit  7: bacc rf_spec=0.700 rf_stat=0.667 tau=0.484 snr_min=11.5
+[fold] unit  8: bacc rf_spec=0.400 rf_stat=0.367 tau=0.489 snr_min=11.5
+[fold] unit  9: bacc rf_spec=0.567 rf_stat=0.333 tau=0.484 snr_min=11.5
+[fold] unit 10: bacc rf_spec=0.900 rf_stat=0.667 tau=0.444 snr_min=11.5
+[fold] unit 11: bacc rf_spec=0.667 rf_stat=0.800 tau=0.464 snr_min=11.5
+[fold] unit 12: bacc rf_spec=0.767 rf_stat=0.800 tau=0.460 snr_min=11.5
+[fold] unit 13: bacc rf_spec=0.333 rf_stat=0.167 tau=0.494 snr_min=11.5
+[fold] unit 14: bacc rf_spec=0.667 rf_stat=0.567 tau=0.437 snr_min=11.5
+[fold] unit 15: bacc rf_spec=0.667 rf_stat=0.667 tau=0.428 snr_min=11.5
+[fold] unit 16: bacc rf_spec=0.633 rf_stat=0.633 tau=0.427 snr_min=11.5
+[fold] unit 17: bacc rf_spec=0.900 rf_stat=0.567 tau=0.422 snr_min=11.5
+[fold] unit 18: bacc rf_spec=0.400 rf_stat=0.900 tau=0.473 snr_min=11.5
+[fold] unit 19: bacc rf_spec=0.333 rf_stat=0.333 tau=0.494 snr_min=11.5
+[fold] unit 20: bacc rf_spec=0.333 rf_stat=0.400 tau=0.479 snr_min=11.5
+[window] rms_rule       bacc=0.640 CI95=(0.558,0.727) macroF1=0.600 F1/class=[0.867, 0.288, 0.645] cm=[[182, 8, 10], [30, 40, 130], [8, 30, 162]]
+[window] env_kurt_rule  bacc=0.432 CI95=(0.357,0.510) macroF1=0.423 F1/class=[0.569, 0.251, 0.448] cm=[[124, 58, 18], [64, 46, 90], [48, 63, 89]]
+[window] rf_stat        bacc=0.553 CI95=(0.465,0.645) macroF1=0.541 F1/class=[0.819, 0.319, 0.486] cm=[[170, 13, 17], [29, 55, 116], [16, 77, 107]]
+[window] rf_spec        bacc=0.608 CI95=(0.532,0.687) macroF1=0.596 F1/class=[0.857, 0.429, 0.502] cm=[[186, 3, 11], [32, 78, 90], [16, 83, 101]]
+[paired] rf_spec - rms_rule       balanced_accuracy diff=-0.030 CI95=(-0.145,+0.067) P(diff<=0)=0.700
+[paired] rf_spec - rms_rule       macro_f1          diff=-0.002 CI95=(-0.135,+0.118) P(diff<=0)=0.499
+[paired] rf_spec - env_kurt_rule  balanced_accuracy diff=+0.179 CI95=(+0.083,+0.292) P(diff<=0)=0.000
+[paired] rf_spec - env_kurt_rule  macro_f1          diff=+0.178 CI95=(+0.071,+0.297) P(diff<=0)=0.000
+[paired] rf_spec - rf_stat        balanced_accuracy diff=+0.057 CI95=(-0.028,+0.138) P(diff<=0)=0.099
+[paired] rf_spec - rf_stat        macro_f1          diff=+0.055 CI95=(-0.039,+0.141) P(diff<=0)=0.111
+[recording] rms_rule       bacc=0.633 CI95=(0.550,0.733) macroF1=0.594 cm=[[18, 1, 1], [3, 4, 13], [1, 3, 16]]
+[recording] env_kurt_rule  bacc=0.433 CI95=(0.350,0.517) macroF1=0.419 cm=[[13, 5, 2], [7, 4, 9], [5, 6, 9]]
+[recording] rf_stat        bacc=0.533 CI95=(0.433,0.650) macroF1=0.519 cm=[[17, 1, 2], [3, 5, 12], [2, 8, 10]]
+[recording] rf_spec        bacc=0.617 CI95=(0.533,0.717) macroF1=0.600 cm=[[19, 0, 1], [3, 7, 10], [2, 7, 11]]
+[selective] rf_stat: AURC(error)=0.305 coverage=0.820 bacc_accepted=0.554 err_accepted=0.429 err_all=0.447 abstain_by_class=[0.07, 0.19, 0.28]
+[selective] rf_spec: AURC(error)=0.235 coverage=0.873 bacc_accepted=0.640 err_accepted=0.344 err_all=0.392 abstain_by_class=[0.035, 0.17, 0.175]
+[selective] rf_spec SNR-gate abstain on clean windows = 0.045; reasons={'ok': 524, 'ragu': 49, 'sinyal': 27}
+[degrade] bersih       acc_no_abstain=0.608 snr_gate_abstain=0.045 total_abstain=0.127 acc_accepted=0.656 medianSNR=32.5
+[degrade] snr_10dB     acc_no_abstain=0.517 snr_gate_abstain=0.540 total_abstain=0.570 acc_accepted=0.632 medianSNR=10.6
+[degrade] snr_0dB      acc_no_abstain=0.503 snr_gate_abstain=0.873 total_abstain=0.877 acc_accepted=0.486 medianSNR=6.6
+[degrade] snr_-10dB    acc_no_abstain=0.325 snr_gate_abstain=0.972 total_abstain=0.972 acc_accepted=0.235 medianSNR=5.6
+[degrade] sensor_lepas acc_no_abstain=0.370 snr_gate_abstain=0.988 total_abstain=0.988 acc_accepted=0.571 medianSNR=5.3
+[deviation] score: {'auc_pooled_sehat_vs_waspada': 1.0, 'auc_per_unit_median_waspada': 1.0, 'units_auc_ge_0.9_waspada': 20, 'auc_pooled_sehat_vs_rusak': 1.0, 'auc_per_unit_median_rusak': 1.0, 'units_auc_ge_0.9_rusak': 20, 'units_order_rusak_gt_waspada_gt_sehat': 14, 'units_waspada_gt_sehat': 20, 'n_units': 20}
+[deviation] score_rms_only: {'auc_pooled_sehat_vs_waspada': 1.0, 'auc_per_unit_median_waspada': 1.0, 'units_auc_ge_0.9_waspada': 20, 'auc_pooled_sehat_vs_rusak': 1.0, 'auc_per_unit_median_rusak': 1.0, 'units_auc_ge_0.9_rusak': 20, 'units_order_rusak_gt_waspada_gt_sehat': 12, 'units_waspada_gt_sehat': 20, 'n_units': 20}
+[done] 258.5s

@@ -1,0 +1,42 @@
+{
+  "file": "data/ottawa_uored_vafcls/mat/C_16_2.mat",
+  "unit_note": "berkas dikenali sebagai bearing #16 dataset Ottawa; semua rekaman unit itu DIKELUARKAN dari data latih (anti-bocor). Label asli: state 2 (tidak dipakai model).",
+  "fs": 42000.0,
+  "duration_s": 10.0,
+  "tau_conf": 0.4211626984126983,
+  "snr_min": 11.517814866541626,
+  "deviation": null,
+  "n_windows": 10,
+  "n_ok": 0,
+  "proba": [
+    0.036500000000000005,
+    0.4174039682539683,
+    0.5460960317460318
+  ],
+  "status": -1,
+  "abstain_reason": "sinyal",
+  "priority": null,
+  "priority_provisional": null,
+  "queue": "UKUR ULANG",
+  "snr_db": 0.1628769117535736,
+  "shaft_hz": 15.86151123046875,
+  "abstain_reason_text": "garis putaran poros tidak terlihat jelas di atas derau (0/10 jendela lolos; SNR median 0.2 dB < ambang 11.5 dB, atau sinyal terpotong/datar)",
+  "next_step": "Ukur ulang 30 detik dengan sensor dipasang kencang di bearing housing (magnet/baut, bukan selotip), arah radial; pastikan pompa berjalan pada putaran normal dan kabel sensor tidak longgar.",
+  "top_features": [
+    [
+      "p2p",
+      1535.2429043430639,
+      31.76997605837771
+    ],
+    [
+      "std",
+      86.790160477596,
+      3.200793842378763
+    ],
+    [
+      "rms",
+      86.79225608718033,
+      3.200843975753807
+    ]
+  ]
+}

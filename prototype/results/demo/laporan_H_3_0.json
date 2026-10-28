@@ -1,0 +1,40 @@
+{
+  "file": "data/ottawa_uored_vafcls/mat/H_3_0.mat",
+  "unit_note": "berkas dikenali sebagai bearing #3 dataset Ottawa; semua rekaman unit itu DIKELUARKAN dari data latih (anti-bocor). Label asli: state 0 (tidak dipakai model).",
+  "fs": 42000.0,
+  "duration_s": 10.0,
+  "tau_conf": 0.4751879365079364,
+  "snr_min": 11.517814866541626,
+  "deviation": null,
+  "n_windows": 10,
+  "n_ok": 10,
+  "proba": [
+    0.9736198412698412,
+    0.02129682539682539,
+    0.005083333333333334
+  ],
+  "status": 0,
+  "abstain_reason": null,
+  "priority": 0.015731746031746027,
+  "priority_provisional": null,
+  "queue": "AMAN",
+  "snr_db": 38.8925744691997,
+  "shaft_hz": 29.8004150390625,
+  "top_features": [
+    [
+      "std",
+      2.797640955867795,
+      3.400267643953249
+    ],
+    [
+      "p2p",
+      24.88770669679678,
+      34.91774284785559
+    ],
+    [
+      "rms",
+      2.7976856013156155,
+      3.400277998288516
+    ]
+  ]
+}

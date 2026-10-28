@@ -1,0 +1,195 @@
+====================================================================================================
+DAFTAR TRIASE ARMADA (DetakPompa, purwarupa TKT 3) | model: rms | kapasitas audit k = 3
+Data: bearing Ottawa sebagai PENGGANTI pompa (bukan pompa PDAM). Unit tiap berkas dikeluarkan dari data latih.
+====================================================================================================
+
+[AUDIT DULU] (3 rekaman)
+ 1. C_17_1               RUSAK       [label asli: WASPADA, tidak dipakai model]
+      alasan : RUSAK, prioritas 2.12 (peringkat 1); RMS median 131.87 (ambang 9.27 / 14.93); margin 0.95 dekade (tau 0.04)
+      langkah: Audit minggu ini: flowmeter portable + manometer + power meter, lalu inspeksi bearing.
+ 2. C_17_2               RUSAK       [label asli: RUSAK, tidak dipakai model]
+      alasan : RUSAK, prioritas 2.03 (peringkat 2); RMS median 106.71 (ambang 9.27 / 14.93); margin 0.85 dekade (tau 0.04)
+      langkah: Audit minggu ini: flowmeter portable + manometer + power meter, lalu inspeksi bearing.
+ 3. I_5_2                RUSAK       [label asli: RUSAK, tidak dipakai model]
+      alasan : RUSAK, prioritas 1.77 (peringkat 3); RMS median 59.29 (ambang 9.27 / 14.93); margin 0.60 dekade (tau 0.05)
+      langkah: Audit minggu ini: flowmeter portable + manometer + power meter, lalu inspeksi bearing.
+
+[PANTAU] (25 rekaman)
+ 4. I_2_1                RUSAK       [label asli: WASPADA, tidak dipakai model]
+      alasan : RUSAK, prioritas 1.68 (peringkat 4); RMS median 48.04 (ambang 9.27 / 14.93); margin 0.51 dekade (tau 0.05); di luar kapasitas audit k = 3
+      langkah: Antre audit berikutnya (di luar kapasitas minggu ini); rekam ulang di ronde berikut.
+ 5. B_13_1               RUSAK       [label asli: WASPADA, tidak dipakai model]
+      alasan : RUSAK, prioritas 1.64 (peringkat 5); RMS median 43.79 (ambang 8.66 / 15.18); margin 0.46 dekade (tau 0.04); di luar kapasitas audit k = 3
+      langkah: Antre audit berikutnya (di luar kapasitas minggu ini); rekam ulang di ronde berikut.
+ 6. B_13_2               RUSAK       [label asli: RUSAK, tidak dipakai model]
+      alasan : RUSAK, prioritas 1.63 (peringkat 6); RMS median 42.77 (ambang 8.66 / 15.18); margin 0.45 dekade (tau 0.04); di luar kapasitas audit k = 3
+      langkah: Antre audit berikutnya (di luar kapasitas minggu ini); rekam ulang di ronde berikut.
+ 7. I_4_1                RUSAK       [label asli: WASPADA, tidak dipakai model]
+      alasan : RUSAK, prioritas 1.54 (peringkat 7); RMS median 34.79 (ambang 9.27 / 14.93); margin 0.37 dekade (tau 0.05); di luar kapasitas audit k = 3
+      langkah: Antre audit berikutnya (di luar kapasitas minggu ini); rekam ulang di ronde berikut.
+ 8. B_11_1               RUSAK       [label asli: WASPADA, tidak dipakai model]
+      alasan : RUSAK, prioritas 1.52 (peringkat 8); RMS median 32.79 (ambang 9.27 / 14.93); margin 0.34 dekade (tau 0.03); di luar kapasitas audit k = 3
+      langkah: Antre audit berikutnya (di luar kapasitas minggu ini); rekam ulang di ronde berikut.
+ 9. H_13_0               RUSAK       [label asli: SEHAT, tidak dipakai model]
+      alasan : RUSAK, prioritas 1.52 (peringkat 9); RMS median 32.78 (ambang 8.66 / 15.18); margin 0.33 dekade (tau 0.04); di luar kapasitas audit k = 3
+      langkah: Antre audit berikutnya (di luar kapasitas minggu ini); rekam ulang di ronde berikut.
+10. I_5_1                RUSAK       [label asli: WASPADA, tidak dipakai model]
+      alasan : RUSAK, prioritas 1.51 (peringkat 10); RMS median 32.08 (ambang 9.27 / 14.93); margin 0.33 dekade (tau 0.05); di luar kapasitas audit k = 3
+      langkah: Antre audit berikutnya (di luar kapasitas minggu ini); rekam ulang di ronde berikut.
+11. I_1_1                RUSAK       [label asli: WASPADA, tidak dipakai model]
+      alasan : RUSAK, prioritas 1.50 (peringkat 11); RMS median 31.75 (ambang 9.27 / 16.44); margin 0.29 dekade (tau 0.05); di luar kapasitas audit k = 3
+      langkah: Antre audit berikutnya (di luar kapasitas minggu ini); rekam ulang di ronde berikut.
+12. B_11_2               RUSAK       [label asli: RUSAK, tidak dipakai model]
+      alasan : RUSAK, prioritas 1.49 (peringkat 12); RMS median 31.16 (ambang 9.27 / 14.93); margin 0.32 dekade (tau 0.03); di luar kapasitas audit k = 3
+      langkah: Antre audit berikutnya (di luar kapasitas minggu ini); rekam ulang di ronde berikut.
+13. I_4_2                RUSAK       [label asli: RUSAK, tidak dipakai model]
+      alasan : RUSAK, prioritas 1.43 (peringkat 13); RMS median 27.04 (ambang 9.27 / 14.93); margin 0.26 dekade (tau 0.05); di luar kapasitas audit k = 3
+      langkah: Antre audit berikutnya (di luar kapasitas minggu ini); rekam ulang di ronde berikut.
+14. B_12_2               RUSAK       [label asli: RUSAK, tidak dipakai model]
+      alasan : RUSAK, prioritas 1.39 (peringkat 14); RMS median 24.50 (ambang 9.27 / 13.30); margin 0.27 dekade (tau 0.05); di luar kapasitas audit k = 3
+      langkah: Antre audit berikutnya (di luar kapasitas minggu ini); rekam ulang di ronde berikut.
+15. O_7_1                RUSAK       [label asli: WASPADA, tidak dipakai model]
+      alasan : RUSAK, prioritas 1.35 (peringkat 15); RMS median 22.52 (ambang 9.27 / 14.93); margin 0.18 dekade (tau 0.03); di luar kapasitas audit k = 3
+      langkah: Antre audit berikutnya (di luar kapasitas minggu ini); rekam ulang di ronde berikut.
+16. O_7_2                RUSAK       [label asli: RUSAK, tidak dipakai model]
+      alasan : RUSAK, prioritas 1.35 (peringkat 16); RMS median 22.25 (ambang 9.27 / 14.93); margin 0.17 dekade (tau 0.03); di luar kapasitas audit k = 3
+      langkah: Antre audit berikutnya (di luar kapasitas minggu ini); rekam ulang di ronde berikut.
+17. O_10_2               RUSAK       [label asli: RUSAK, tidak dipakai model]
+      alasan : RUSAK, prioritas 1.34 (peringkat 17); RMS median 21.75 (ambang 9.27 / 14.93); margin 0.16 dekade (tau 0.03); di luar kapasitas audit k = 3
+      langkah: Antre audit berikutnya (di luar kapasitas minggu ini); rekam ulang di ronde berikut.
+18. C_18_2               RUSAK       [label asli: RUSAK, tidak dipakai model]
+      alasan : RUSAK, prioritas 1.30 (peringkat 18); RMS median 19.97 (ambang 9.36 / 15.92); margin 0.10 dekade (tau 0.03); di luar kapasitas audit k = 3
+      langkah: Antre audit berikutnya (di luar kapasitas minggu ini); rekam ulang di ronde berikut.
+19. I_3_2                RUSAK       [label asli: RUSAK, tidak dipakai model]
+      alasan : RUSAK, prioritas 1.27 (peringkat 19); RMS median 18.83 (ambang 9.27 / 14.93); margin 0.10 dekade (tau 0.05); di luar kapasitas audit k = 3
+      langkah: Antre audit berikutnya (di luar kapasitas minggu ini); rekam ulang di ronde berikut.
+20. O_10_1               RUSAK       [label asli: WASPADA, tidak dipakai model]
+      alasan : RUSAK, prioritas 1.27 (peringkat 20); RMS median 18.82 (ambang 9.27 / 14.93); margin 0.10 dekade (tau 0.03); di luar kapasitas audit k = 3
+      langkah: Antre audit berikutnya (di luar kapasitas minggu ini); rekam ulang di ronde berikut.
+21. B_14_2               RUSAK       [label asli: RUSAK, tidak dipakai model]
+      alasan : RUSAK, prioritas 1.27 (peringkat 21); RMS median 18.82 (ambang 9.27 / 15.92); margin 0.07 dekade (tau 0.03); di luar kapasitas audit k = 3
+      langkah: Antre audit berikutnya (di luar kapasitas minggu ini); rekam ulang di ronde berikut.
+22. C_20_2               RUSAK       [label asli: RUSAK, tidak dipakai model]
+      alasan : RUSAK, prioritas 1.26 (peringkat 22); RMS median 18.25 (ambang 9.27 / 15.92); margin 0.06 dekade (tau 0.03); di luar kapasitas audit k = 3
+      langkah: Antre audit berikutnya (di luar kapasitas minggu ini); rekam ulang di ronde berikut.
+23. I_2_2                RUSAK       [label asli: RUSAK, tidak dipakai model]
+      alasan : RUSAK, prioritas 1.26 (peringkat 23); RMS median 18.22 (ambang 9.27 / 14.93); margin 0.09 dekade (tau 0.05); di luar kapasitas audit k = 3
+      langkah: Antre audit berikutnya (di luar kapasitas minggu ini); rekam ulang di ronde berikut.
+24. I_3_1                RUSAK       [label asli: WASPADA, tidak dipakai model]
+      alasan : RUSAK, prioritas 1.26 (peringkat 24); RMS median 18.09 (ambang 9.27 / 14.93); margin 0.08 dekade (tau 0.05); di luar kapasitas audit k = 3
+      langkah: Antre audit berikutnya (di luar kapasitas minggu ini); rekam ulang di ronde berikut.
+25. O_9_2                WASPADA     [label asli: RUSAK, tidak dipakai model]
+      alasan : WASPADA, prioritas 1.16 (peringkat 25); RMS median 14.47 (ambang 8.50 / 15.43); margin 0.03 dekade (tau 0.03); di luar kapasitas audit k = 3
+      langkah: Antre audit berikutnya (di luar kapasitas minggu ini); rekam ulang di ronde berikut.
+26. B_14_1               WASPADA     [label asli: WASPADA, tidak dipakai model]
+      alasan : WASPADA, prioritas 1.11 (peringkat 26); RMS median 12.85 (ambang 9.27 / 15.92); margin 0.09 dekade (tau 0.03); di luar kapasitas audit k = 3
+      langkah: Antre audit berikutnya (di luar kapasitas minggu ini); rekam ulang di ronde berikut.
+27. C_20_1               WASPADA     [label asli: WASPADA, tidak dipakai model]
+      alasan : WASPADA, prioritas 1.09 (peringkat 27); RMS median 12.18 (ambang 9.27 / 15.92); margin 0.12 dekade (tau 0.03); di luar kapasitas audit k = 3
+      langkah: Antre audit berikutnya (di luar kapasitas minggu ini); rekam ulang di ronde berikut.
+28. C_18_1               WASPADA     [label asli: WASPADA, tidak dipakai model]
+      alasan : WASPADA, prioritas 1.03 (peringkat 28); RMS median 10.67 (ambang 9.36 / 15.92); margin 0.06 dekade (tau 0.03); di luar kapasitas audit k = 3
+      langkah: Antre audit berikutnya (di luar kapasitas minggu ini); rekam ulang di ronde berikut.
+
+[UKUR ULANG] (10 rekaman)
+  - B_12_1               TIDAK TAHU  [label asli: WASPADA, tidak dipakai model]
+      alasan : model ragu (RMS median 14.79 (ambang 9.27 / 13.30); margin 0.05 dekade (tau 0.05)); prioritas sementara 1.17, tidak ikut urutan
+      langkah: Ukur ulang 30 detik di titik yang sama, lalu bandingkan dengan rekaman baseline unit ini (mode --baseline). Bila tetap ragu: cek dengan flowmeter portable + manometer untuk melihat apakah kinerja hidrolik pompa turun.
+  - B_15_2               TIDAK TAHU  [label asli: RUSAK, tidak dipakai model]
+      alasan : model ragu (RMS median 16.52 (ambang 8.83 / 15.92); margin 0.02 dekade (tau 0.03)); prioritas sementara 1.22, tidak ikut urutan
+      langkah: Ukur ulang 30 detik di titik yang sama, lalu bandingkan dengan rekaman baseline unit ini (mode --baseline). Bila tetap ragu: cek dengan flowmeter portable + manometer untuk melihat apakah kinerja hidrolik pompa turun.
+  - C_16_1               TIDAK TAHU  [label asli: WASPADA, tidak dipakai model]
+      alasan : sinyal ditolak gerbang SNR: 0/10 jendela lolos, SNR median 1.0 dB (ambang 11.5 dB); TIDAK diberi prioritas
+      langkah: Ukur ulang 30 detik dengan sensor dipasang kencang di bearing housing (magnet/baut, bukan selotip), arah radial; pastikan pompa berjalan pada putaran normal dan kabel sensor tidak longgar.
+  - C_16_2               TIDAK TAHU  [label asli: RUSAK, tidak dipakai model]
+      alasan : sinyal ditolak gerbang SNR: 0/10 jendela lolos, SNR median 0.2 dB (ambang 11.5 dB); TIDAK diberi prioritas
+      langkah: Ukur ulang 30 detik dengan sensor dipasang kencang di bearing housing (magnet/baut, bukan selotip), arah radial; pastikan pompa berjalan pada putaran normal dan kabel sensor tidak longgar.
+  - C_19_2               TIDAK TAHU  [label asli: RUSAK, tidak dipakai model]
+      alasan : model ragu (RMS median 8.75 (ambang 8.56 / 15.43); margin 0.01 dekade (tau 0.03)); prioritas sementara 0.94, tidak ikut urutan
+      langkah: Ukur ulang 30 detik di titik yang sama, lalu bandingkan dengan rekaman baseline unit ini (mode --baseline). Bila tetap ragu: cek dengan flowmeter portable + manometer untuk melihat apakah kinerja hidrolik pompa turun.
+  - H_9_0                TIDAK TAHU  [label asli: SEHAT, tidak dipakai model]
+      alasan : model ragu (RMS median 8.56 (ambang 8.50 / 15.43); margin 0.00 dekade (tau 0.03)); prioritas sementara 0.93, tidak ikut urutan
+      langkah: Ukur ulang 30 detik di titik yang sama, lalu bandingkan dengan rekaman baseline unit ini (mode --baseline). Bila tetap ragu: cek dengan flowmeter portable + manometer untuk melihat apakah kinerja hidrolik pompa turun.
+  - I_1_2                TIDAK TAHU  [label asli: RUSAK, tidak dipakai model]
+      alasan : model ragu (RMS median 15.93 (ambang 9.27 / 16.44); margin 0.01 dekade (tau 0.05)); prioritas sementara 1.20, tidak ikut urutan
+      langkah: Ukur ulang 30 detik di titik yang sama, lalu bandingkan dengan rekaman baseline unit ini (mode --baseline). Bila tetap ragu: cek dengan flowmeter portable + manometer untuk melihat apakah kinerja hidrolik pompa turun.
+  - O_6_1                TIDAK TAHU  [label asli: WASPADA, tidak dipakai model]
+      alasan : model ragu (RMS median 16.46 (ambang 9.27 / 14.93); margin 0.04 dekade (tau 0.05)); prioritas sementara 1.22, tidak ikut urutan
+      langkah: Ukur ulang 30 detik di titik yang sama, lalu bandingkan dengan rekaman baseline unit ini (mode --baseline). Bila tetap ragu: cek dengan flowmeter portable + manometer untuk melihat apakah kinerja hidrolik pompa turun.
+  - O_6_2                TIDAK TAHU  [label asli: RUSAK, tidak dipakai model]
+      alasan : model ragu (RMS median 16.50 (ambang 9.27 / 14.93); margin 0.04 dekade (tau 0.05)); prioritas sementara 1.22, tidak ikut urutan
+      langkah: Ukur ulang 30 detik di titik yang sama, lalu bandingkan dengan rekaman baseline unit ini (mode --baseline). Bila tetap ragu: cek dengan flowmeter portable + manometer untuk melihat apakah kinerja hidrolik pompa turun.
+  - O_9_1                TIDAK TAHU  [label asli: WASPADA, tidak dipakai model]
+      alasan : model ragu (RMS median 14.59 (ambang 8.50 / 15.43); margin 0.02 dekade (tau 0.03)); prioritas sementara 1.16, tidak ikut urutan
+      langkah: Ukur ulang 30 detik di titik yang sama, lalu bandingkan dengan rekaman baseline unit ini (mode --baseline). Bila tetap ragu: cek dengan flowmeter portable + manometer untuk melihat apakah kinerja hidrolik pompa turun.
+
+[AMAN] (22 rekaman)
+  - B_15_1               SEHAT       [label asli: WASPADA, tidak dipakai model]
+      alasan : SEHAT; RMS median 8.08 (ambang 8.83 / 15.92); margin 0.04 dekade (tau 0.03)
+      langkah: Tidak perlu tindakan khusus; rekam ulang sesuai jadwal rutin.
+  - C_19_1               SEHAT       [label asli: WASPADA, tidak dipakai model]
+      alasan : SEHAT; RMS median 5.81 (ambang 8.56 / 15.43); margin 0.17 dekade (tau 0.03)
+      langkah: Tidak perlu tindakan khusus; rekam ulang sesuai jadwal rutin.
+  - H_10_0               SEHAT       [label asli: SEHAT, tidak dipakai model]
+      alasan : SEHAT; RMS median 3.01 (ambang 9.27 / 14.93); margin 0.49 dekade (tau 0.03)
+      langkah: Tidak perlu tindakan khusus; rekam ulang sesuai jadwal rutin.
+  - H_11_0               SEHAT       [label asli: SEHAT, tidak dipakai model]
+      alasan : SEHAT; RMS median 7.51 (ambang 9.27 / 14.93); margin 0.09 dekade (tau 0.03)
+      langkah: Tidak perlu tindakan khusus; rekam ulang sesuai jadwal rutin.
+  - H_12_0               SEHAT       [label asli: SEHAT, tidak dipakai model]
+      alasan : SEHAT; RMS median 8.05 (ambang 9.27 / 13.30); margin 0.06 dekade (tau 0.05)
+      langkah: Tidak perlu tindakan khusus; rekam ulang sesuai jadwal rutin.
+  - H_14_0               SEHAT       [label asli: SEHAT, tidak dipakai model]
+      alasan : SEHAT; RMS median 2.68 (ambang 9.27 / 15.92); margin 0.54 dekade (tau 0.03)
+      langkah: Tidak perlu tindakan khusus; rekam ulang sesuai jadwal rutin.
+  - H_15_0               SEHAT       [label asli: SEHAT, tidak dipakai model]
+      alasan : SEHAT; RMS median 2.73 (ambang 8.83 / 15.92); margin 0.51 dekade (tau 0.03)
+      langkah: Tidak perlu tindakan khusus; rekam ulang sesuai jadwal rutin.
+  - H_16_0               SEHAT       [label asli: SEHAT, tidak dipakai model]
+      alasan : SEHAT; RMS median 5.09 (ambang 9.27 / 14.93); margin 0.26 dekade (tau 0.04)
+      langkah: Tidak perlu tindakan khusus; rekam ulang sesuai jadwal rutin.
+  - H_17_0               SEHAT       [label asli: SEHAT, tidak dipakai model]
+      alasan : SEHAT; RMS median 2.28 (ambang 9.27 / 14.93); margin 0.61 dekade (tau 0.04)
+      langkah: Tidak perlu tindakan khusus; rekam ulang sesuai jadwal rutin.
+  - H_18_0               SEHAT       [label asli: SEHAT, tidak dipakai model]
+      alasan : SEHAT; RMS median 2.15 (ambang 9.36 / 15.92); margin 0.64 dekade (tau 0.03)
+      langkah: Tidak perlu tindakan khusus; rekam ulang sesuai jadwal rutin.
+  - H_19_0               SEHAT       [label asli: SEHAT, tidak dipakai model]
+      alasan : SEHAT; RMS median 2.25 (ambang 8.56 / 15.43); margin 0.58 dekade (tau 0.03)
+      langkah: Tidak perlu tindakan khusus; rekam ulang sesuai jadwal rutin.
+  - H_1_0                SEHAT       [label asli: SEHAT, tidak dipakai model]
+      alasan : SEHAT; RMS median 3.20 (ambang 9.27 / 16.44); margin 0.46 dekade (tau 0.05)
+      langkah: Tidak perlu tindakan khusus; rekam ulang sesuai jadwal rutin.
+  - H_20_0               SEHAT       [label asli: SEHAT, tidak dipakai model]
+      alasan : SEHAT; RMS median 1.77 (ambang 9.27 / 15.92); margin 0.72 dekade (tau 0.03)
+      langkah: Tidak perlu tindakan khusus; rekam ulang sesuai jadwal rutin.
+  - H_2_0                SEHAT       [label asli: SEHAT, tidak dipakai model]
+      alasan : SEHAT; RMS median 5.50 (ambang 9.27 / 14.93); margin 0.23 dekade (tau 0.05)
+      langkah: Tidak perlu tindakan khusus; rekam ulang sesuai jadwal rutin.
+  - H_3_0                SEHAT       [label asli: SEHAT, tidak dipakai model]
+      alasan : SEHAT; RMS median 2.80 (ambang 9.27 / 14.93); margin 0.52 dekade (tau 0.05)
+      langkah: Tidak perlu tindakan khusus; rekam ulang sesuai jadwal rutin.
+  - H_4_0                SEHAT       [label asli: SEHAT, tidak dipakai model]
+      alasan : SEHAT; RMS median 3.40 (ambang 9.27 / 14.93); margin 0.44 dekade (tau 0.05)
+      langkah: Tidak perlu tindakan khusus; rekam ulang sesuai jadwal rutin.
+  - H_5_0                SEHAT       [label asli: SEHAT, tidak dipakai model]
+      alasan : SEHAT; RMS median 7.08 (ambang 9.27 / 14.93); margin 0.12 dekade (tau 0.05)
+      langkah: Tidak perlu tindakan khusus; rekam ulang sesuai jadwal rutin.
+  - H_6_0                SEHAT       [label asli: SEHAT, tidak dipakai model]
+      alasan : SEHAT; RMS median 8.05 (ambang 9.27 / 14.93); margin 0.06 dekade (tau 0.05)
+      langkah: Tidak perlu tindakan khusus; rekam ulang sesuai jadwal rutin.
+  - H_7_0                SEHAT       [label asli: SEHAT, tidak dipakai model]
+      alasan : SEHAT; RMS median 2.85 (ambang 9.27 / 14.93); margin 0.51 dekade (tau 0.03)
+      langkah: Tidak perlu tindakan khusus; rekam ulang sesuai jadwal rutin.
+  - H_8_0                SEHAT       [label asli: SEHAT, tidak dipakai model]
+      alasan : SEHAT; RMS median 3.48 (ambang 8.65 / 15.43); margin 0.39 dekade (tau 0.01)
+      langkah: Tidak perlu tindakan khusus; rekam ulang sesuai jadwal rutin.
+  - O_8_1                SEHAT       [label asli: WASPADA, tidak dipakai model]
+      alasan : SEHAT; RMS median 7.72 (ambang 8.65 / 15.43); margin 0.05 dekade (tau 0.01)
+      langkah: Tidak perlu tindakan khusus; rekam ulang sesuai jadwal rutin.
+  - O_8_2                SEHAT       [label asli: RUSAK, tidak dipakai model]
+      alasan : SEHAT; RMS median 7.91 (ambang 8.65 / 15.43); margin 0.04 dekade (tau 0.01)
+      langkah: Tidak perlu tindakan khusus; rekam ulang sesuai jadwal rutin.
+
+TIDAK TAHU bukan berarti aman: antrean UKUR ULANG dikerjakan sebelum ronde berikutnya.
+Alat ini TIDAK mengukur efisiensi atau kWh; ia hanya memilih pompa mana yang diaudit duluan.

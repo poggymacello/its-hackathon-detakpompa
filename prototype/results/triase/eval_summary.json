@@ -1,0 +1,125 @@
+{
+  "usulan_prec_perlu_cek": {
+    "mean": 0.9708333333333332,
+    "lo": 0.6666666666666666,
+    "hi": 1.0,
+    "n": 2000
+  },
+  "rms_gate_prec_perlu_cek": {
+    "mean": 0.9516666666666667,
+    "lo": 0.6666666666666666,
+    "hi": 1.0,
+    "n": 2000
+  },
+  "diff_prec_perlu_cek": {
+    "mean": 0.01916666666666667,
+    "lo": -0.33333333333333337,
+    "hi": 0.33333333333333337,
+    "share_le_0": 0.907,
+    "share_eq_0": 0.8675,
+    "n": 2000
+  },
+  "usulan_prec_rusak": {
+    "mean": 0.4531666666666666,
+    "lo": 0.0,
+    "hi": 1.0,
+    "n": 2000
+  },
+  "rms_gate_prec_rusak": {
+    "mean": 0.4116666666666666,
+    "lo": 0.0,
+    "hi": 1.0,
+    "n": 2000
+  },
+  "diff_prec_rusak": {
+    "mean": 0.0415,
+    "lo": -0.6666666666666666,
+    "hi": 0.6666666666666667,
+    "share_le_0": 0.651,
+    "share_eq_0": 0.394,
+    "n": 2000
+  },
+  "usulan_n_sehat_in_audit": {
+    "mean": 0.0875,
+    "lo": 0.0,
+    "hi": 1.0,
+    "n": 2000
+  },
+  "rms_gate_n_sehat_in_audit": {
+    "mean": 0.145,
+    "lo": 0.0,
+    "hi": 1.0,
+    "n": 2000
+  },
+  "diff_n_sehat_in_audit": {
+    "mean": -0.0575,
+    "lo": -1.0,
+    "hi": 1.0,
+    "share_le_0": 0.9605,
+    "share_eq_0": 0.8675,
+    "n": 2000
+  },
+  "usulan_fault_to_ukur_ulang": {
+    "mean": 0.1763677358567645,
+    "lo": 0.0,
+    "hi": 0.4,
+    "n": 2000
+  },
+  "rms_gate_fault_to_ukur_ulang": {
+    "mean": 0.2220326935169234,
+    "lo": 0.0,
+    "hi": 0.46153846153846156,
+    "n": 2000
+  },
+  "diff_fault_to_ukur_ulang": {
+    "mean": -0.0456649576601589,
+    "lo": -0.3076923076923077,
+    "hi": 0.21428571428571427,
+    "share_le_0": 0.729,
+    "share_eq_0": 0.2125,
+    "n": 2000
+  },
+  "usulan_fault_to_aman": {
+    "mean": 0.07395406749683064,
+    "lo": 0.0,
+    "hi": 0.25,
+    "n": 2000
+  },
+  "rms_gate_fault_to_aman": {
+    "mean": 0.10053153838765293,
+    "lo": 0.0,
+    "hi": 0.2857142857142857,
+    "n": 2000
+  },
+  "diff_fault_to_aman": {
+    "mean": -0.026577470890822283,
+    "lo": -0.18181818181818182,
+    "hi": 0.1111111111111111,
+    "share_le_0": 0.837,
+    "share_eq_0": 0.4405,
+    "n": 2000
+  },
+  "usulan_n_audit": {
+    "mean": 3.0,
+    "lo": 3.0,
+    "hi": 3.0,
+    "n": 2000
+  },
+  "rms_gate_n_audit": {
+    "mean": 3.0,
+    "lo": 3.0,
+    "hi": 3.0,
+    "n": 2000
+  },
+  "diff_n_audit": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "share_le_0": 1.0,
+    "share_eq_0": 1.0,
+    "n": 2000
+  },
+  "base_rate_perlu_cek": 0.667325,
+  "runtime_s": 242.967759847641,
+  "protocol": "LOUO 20 folds; recording-level; k=3; 2000 fleets of 20 bearings drawn with replacement, one random recording each (seed 0); identical SNR gate 11.52 dB"
+}

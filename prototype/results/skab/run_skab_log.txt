@@ -1,0 +1,143 @@
+SKAB loaded from C:\Users\POGGY\Downloads\barengpoggy\ITSHackathon2026\prototype\data\skab\data: 35 files; rows=46806; info={'dropped_nan': {}, 'missing_anomaly_col': ['anomaly-free']}
+  anomaly-free  cls=N rows= 9405 anomaly_rows=   0
+  other/1       cls=X rows=  745 anomaly_rows= 188
+  other/2       cls=X rows=  780 anomaly_rows= 384
+  other/3       cls=X rows= 1137 anomaly_rows= 398
+  other/4       cls=X rows= 1191 anomaly_rows= 395
+  other/5       cls=F rows= 1155 anomaly_rows= 410
+  other/6       cls=F rows= 1147 anomaly_rows= 402
+  other/7       cls=F rows= 1090 anomaly_rows= 347
+  other/8       cls=F rows= 1147 anomaly_rows= 403
+  other/9       cls=F rows= 1144 anomaly_rows= 401
+  other/10      cls=X rows= 1327 anomaly_rows= 586
+  other/11      cls=X rows= 1190 anomaly_rows= 451
+  other/12      cls=F rows= 1048 anomaly_rows= 309
+  other/13      cls=F rows=  923 anomaly_rows= 265
+  other/14      cls=X rows=  905 anomaly_rows= 302
+  valve1/0      cls=T rows= 1147 anomaly_rows= 401
+  valve1/1      cls=T rows= 1145 anomaly_rows= 402
+  valve1/2      cls=T rows= 1075 anomaly_rows= 337
+  valve1/3      cls=T rows= 1148 anomaly_rows= 404
+  valve1/4      cls=T rows= 1095 anomaly_rows= 349
+  valve1/5      cls=T rows= 1154 anomaly_rows= 403
+  valve1/6      cls=T rows= 1154 anomaly_rows= 405
+  valve1/7      cls=T rows= 1094 anomaly_rows= 405
+  valve1/8      cls=T rows= 1144 anomaly_rows= 400
+  valve1/9      cls=T rows= 1148 anomaly_rows= 402
+  valve1/10     cls=T rows= 1146 anomaly_rows= 401
+  valve1/11     cls=T rows= 1141 anomaly_rows= 399
+  valve1/12     cls=T rows= 1140 anomaly_rows= 399
+  valve1/13     cls=T rows= 1140 anomaly_rows= 399
+  valve1/14     cls=T rows= 1139 anomaly_rows= 399
+  valve1/15     cls=T rows= 1150 anomaly_rows= 404
+  valve2/0      cls=T rows= 1125 anomaly_rows= 394
+  valve2/1      cls=T rows= 1063 anomaly_rows= 333
+  valve2/2      cls=T rows= 1129 anomaly_rows= 395
+  valve2/3      cls=T rows=  995 anomaly_rows= 395
+events with labels: T=20 F=7
+[fold  1/34] test=other/1    n_train_normal=33182 tau_R=10.969 tau_B3=2.990
+[fold  6/34] test=other/6    n_train_normal=32994 tau_R=10.375 tau_B3=2.777
+[fold 11/34] test=other/11   n_train_normal=33000 tau_R=11.774 tau_B3=2.989
+[fold 16/34] test=valve1/1   n_train_normal=32996 tau_R=9.488 tau_B3=3.329
+[fold 21/34] test=valve1/6   n_train_normal=32990 tau_R=9.549 tau_B3=3.337
+[fold 26/34] test=valve1/11  n_train_normal=32997 tau_R=9.587 tau_B3=3.329
+[fold 31/34] test=valve2/0   n_train_normal=33008 tau_R=9.595 tau_B3=3.308
+folds done in 102 s
+
+=== PRIMER (Holm m=2, alpha satu sisi 0.025; p_H = max_j p_j, IUT) ===
+H1 R vs B1: AUROC 1.000 vs 0.571  Δ=+0.429 [+0.143; +0.857]  p1=0.0199
+H1 R vs B2: AUROC 1.000 vs 1.000  Δ=+0.000 [+0.000; +0.000]  p1=1.0000
+H1 R vs B3: AUROC 1.000 vs 0.571  Δ=+0.429 [+0.143; +0.857]  p1=0.0199
+H2 R vs B1: AUROC 0.532 vs 0.573  Δ=-0.041 [-0.109; +0.033]  p1=0.8478
+H2 R vs B2: AUROC 0.532 vs 0.502  Δ=+0.031 [-0.020; +0.092]  p1=0.1270
+H2 R vs B3: AUROC 0.532 vs 0.581  Δ=-0.049 [-0.113; +0.022]  p1=0.9116
+H1: p_H=1.0000 thr=0.0250 holm_reject=False -> GAGAL
+H2: p_H=0.9116 thr=0.0125 holm_reject=False -> GAGAL
+G-H1 recall F events at tau_R = 0.714 (>=0.5: True);  G-H2 FAR_R=0.024 vs FAR_B3+0.05=0.068 (True)
+
+AUROC per metode:
+ method  H1_auc_event  H1_lo  H1_hi  H2_auc_point  H2_lo  H2_hi
+      R         1.000  1.000  1.000         0.532  0.488  0.590
+  R_hyd         1.000  1.000  1.000         0.514  0.495  0.535
+  R_gbm         0.621  0.286  0.893         0.867  0.813  0.907
+R_sehat         1.000  1.000  1.000         0.529  0.487  0.584
+     B1         0.571  0.143  0.857         0.573  0.481  0.673
+     B2         1.000  1.000  1.000         0.502  0.480  0.521
+     B3         0.571  0.143  0.857         0.581  0.493  0.679
+   R_rc         1.000  1.000  1.000         0.629  0.585  0.683
+  B1_rc         1.000  1.000  1.000         0.563  0.518  0.621
+  B2_rc         1.000  1.000  1.000         0.507  0.494  0.519
+  B3_rc         0.979  0.914  1.000         0.582  0.531  0.642
+
+=== SEKUNDER (Holm dua sisi alpha 0.05 atas semua baris) ===
+                  test     ref    vs  n_pos  n_neg  auc_ref  auc_other  delta     lo     hi  p_two_sided  holm_reject
+        S1 H1 T=valve2       R    B1      7      4    1.000      0.571  0.429  0.143  0.857        0.033        False
+        S1 H1 T=valve2       R    B2      7      4    1.000      1.000  0.000  0.000  0.000        1.000        False
+        S1 H1 T=valve2       R    B3      7      4    1.000      0.571  0.429  0.143  0.857        0.033        False
+        S2 H1 T=valve1       R    B1      7     16    1.000      0.571  0.429  0.143  0.714        0.039        False
+        S2 H1 T=valve1       R    B2      7     16    1.000      1.000  0.000  0.000  0.000        1.000        False
+        S2 H1 T=valve1       R    B3      7     16    1.000      0.571  0.429  0.143  0.714        0.039        False
+        S3 H1 F∪X vs T       R    B1     14     20    1.000      0.286  0.714  0.500  0.929        0.001         True
+        S3 H1 F∪X vs T       R    B2     14     20    1.000      0.714  0.286  0.071  0.571        0.016        False
+        S3 H1 F∪X vs T       R    B3     14     20    1.000      0.286  0.714  0.500  0.929        0.001         True
+         S4 H1 R-sehat R_sehat    B1      7     20    1.000      0.571  0.429  0.143  0.857        0.038        False
+         S4 H1 R-sehat R_sehat    B2      7     20    1.000      1.000  0.000  0.000  0.000        1.000        False
+         S4 H1 R-sehat R_sehat    B3      7     20    1.000      0.571  0.429  0.143  0.857        0.038        False
+           S5 H1 R-GBM   R_gbm    B1      7     20    0.621      0.571  0.050  0.000  0.157        0.168        False
+           S5 H1 R-GBM   R_gbm    B2      7     20    0.621      1.000 -0.379 -0.714 -0.114        0.038        False
+           S5 H1 R-GBM   R_gbm    B3      7     20    0.621      0.571  0.050  0.000  0.157        0.168        False
+           S5 H2 R-GBM   R_gbm    B1  13067  24334    0.867      0.573  0.294  0.195  0.391        0.001         True
+           S5 H2 R-GBM   R_gbm    B2  13067  24334    0.867      0.502  0.365  0.303  0.412        0.001         True
+           S5 H2 R-GBM   R_gbm    B3  13067  24334    0.867      0.581  0.286  0.186  0.384        0.001         True
+  S6 H1 hidraulik saja   R_hyd    B1      7     20    1.000      0.571  0.429  0.143  0.857        0.038        False
+  S6 H1 hidraulik saja   R_hyd    B2      7     20    1.000      1.000  0.000  0.000  0.000        1.000        False
+  S6 H1 hidraulik saja   R_hyd    B3      7     20    1.000      0.571  0.429  0.143  0.857        0.038        False
+     S9 H2 tanpa valve       R    B1   5241   9688    0.716      0.679  0.037 -0.069  0.170        0.472        False
+     S9 H2 tanpa valve       R    B2   5241   9688    0.716      0.506  0.210  0.044  0.366        0.012        False
+     S9 H2 tanpa valve       R    B3   5241   9688    0.716      0.714  0.002 -0.157  0.165        0.904        False
+S10 H1 pemusatan ulang    R_rc B1_rc      7     20    1.000      1.000  0.000  0.000  0.000        1.000        False
+S10 H1 pemusatan ulang    R_rc B2_rc      7     20    1.000      1.000  0.000  0.000  0.000        1.000        False
+S10 H1 pemusatan ulang    R_rc B3_rc      7     20    1.000      0.979  0.021  0.000  0.086        0.699        False
+S10 H2 pemusatan ulang    R_rc B1_rc  13067  24334    0.629      0.563  0.066  0.029  0.110        0.001         True
+S10 H2 pemusatan ulang    R_rc B2_rc  13067  24334    0.629      0.507  0.122  0.080  0.174        0.001         True
+S10 H2 pemusatan ulang    R_rc B3_rc  13067  24334    0.629      0.582  0.047  0.002  0.098        0.043        False
+
+S7 balanced accuracy per kejadian pada tau:
+ method  balanced_acc    lo    hi  recall_F  flag_rate_T
+      R         0.857 0.714 1.000     0.714        0.000
+  R_hyd         0.500 0.500 0.500     0.000        0.000
+  R_gbm         0.407 0.214 0.575     0.714        0.900
+R_sehat         0.857 0.714 1.000     0.714        0.000
+     B1         0.857 0.714 1.000     0.714        0.000
+     B2         0.500 0.500 0.500     0.000        0.000
+     B3         0.786 0.571 0.929     0.571        0.000
+   R_rc         0.929 0.786 1.000     0.857        0.000
+  B1_rc         0.786 0.571 0.929     0.571        0.000
+  B2_rc         0.500 0.500 0.500     0.000        0.000
+  B3_rc         0.786 0.571 0.929     0.571        0.000
+
+S8 titik pada tau:
+ method    F1   FAR   MAR  precision  recall
+      R 0.242 0.024 0.856      0.766   0.144
+  R_hyd 0.019 0.011 0.990      0.325   0.010
+  R_gbm 0.763 0.030 0.349      0.921   0.651
+R_sehat 0.242 0.024 0.856      0.763   0.144
+     B1 0.269 0.038 0.834      0.700   0.166
+     B2 0.020 0.006 0.990      0.460   0.010
+     B3 0.227 0.018 0.868      0.802   0.132
+   R_rc 0.235 0.022 0.861      0.771   0.139
+  B1_rc 0.219 0.012 0.874      0.854   0.126
+  B2_rc 0.015 0.009 0.993      0.298   0.007
+  B3_rc 0.205 0.010 0.884      0.859   0.116
+
+Deskriptif median z residual R (baris anomali per jenis):
+                      z_P   z_p  z_acc1  z_acc2  n_rows
+sub                                                    
+F-imbalance          0.27 -0.73  202.81  125.42    1963
+F-kavitasi           1.23 -0.68   24.41    9.75     574
+T-valve1 (inlet)     0.00 -0.13   -1.77   -0.52    6309
+T-valve2 (outlet)   -0.01 -0.13   -1.59   -0.88    1517
+X-proses             0.34  0.23    6.42    4.23    2704
+normal (berkas uji)  0.06 -0.10   -1.54   -1.15   24334
+
+selesai dalam 231 s

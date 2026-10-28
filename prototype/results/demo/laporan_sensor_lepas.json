@@ -1,0 +1,42 @@
+{
+  "file": "results/demo_inputs/sensor_lepas.npy",
+  "unit_note": null,
+  "fs": 42000.0,
+  "duration_s": 10.0,
+  "tau_conf": 0.4947118253968254,
+  "snr_min": 11.517814866541626,
+  "deviation": null,
+  "n_windows": 10,
+  "n_ok": 2,
+  "proba": [
+    0.01,
+    0.2468888888888889,
+    0.7431111111111112
+  ],
+  "status": -1,
+  "abstain_reason": "sinyal",
+  "priority": null,
+  "priority_provisional": null,
+  "queue": "UKUR ULANG",
+  "snr_db": 4.452430560348371,
+  "shaft_hz": 34.12628173828125,
+  "abstain_reason_text": "garis putaran poros tidak terlihat jelas di atas derau (2/10 jendela lolos; SNR median 4.5 dB < ambang 11.5 dB, atau sinyal terpotong/datar)",
+  "next_step": "Ukur ulang 30 detik dengan sensor dipasang kencang di bearing housing (magnet/baut, bukan selotip), arah radial; pastikan pompa berjalan pada putaran normal dan kabel sensor tidak longgar.",
+  "top_features": [
+    [
+      "p2p",
+      182.39981002385744,
+      33.7347479011476
+    ],
+    [
+      "std",
+      20.753957915051185,
+      3.34081255284793
+    ],
+    [
+      "rms",
+      20.754268978037516,
+      3.3408726483872018
+    ]
+  ]
+}

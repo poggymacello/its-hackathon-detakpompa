@@ -1,0 +1,20 @@
+PREVALENSI REALISTIS: armada 22 pompa, 5000 armada per skenario (seed 0), keputusan LOUO yang sama (eval_recording_decisions.csv), k = 3
+  rekaman sehat yang ditandai (WASPADA/RUSAK + prioritas), dari 20: usulan ['H_13_0'], rms_gate ['H_13_0']; ditandai keduanya: ['H_13_0']
+  rekaman perlu-cek yang masuk peringkat audit, usulan: 30/40
+  rekaman perlu-cek yang masuk peringkat audit, rms_gate: 27/40
+
+  3/22 pompa bermasalah (dasar acak 0.136)
+    prec_perlu_cek       usulan 0.707 [0.000; 1.000]  rms_gate 0.682 [0.000; 1.000]  selisih +0.022 [-0.333; +0.333] (seri 0.83; selisih > 0 di 0.12, < 0 di 0.05 armada)
+    prec_rusak           usulan 0.371 [0.000; 1.000]  rms_gate 0.347 [0.000; 1.000]  selisih +0.022 [-0.333; +0.500] (seri 0.70; selisih > 0 di 0.18, < 0 di 0.12 armada)
+    catch_at_k           usulan 0.603 [0.000; 1.000]  rms_gate 0.546 [0.000; 1.000]  selisih +0.058 [-0.333; +0.667] (seri 0.67; selisih > 0 di 0.24, < 0 di 0.09 armada)
+    any_sehat_in_audit   usulan 0.609 [0.000; 1.000]  rms_gate 0.616 [0.000; 1.000]  selisih -0.008 [+0.000; +0.000] (seri 0.98; selisih > 0 di 0.00, < 0 di 0.01 armada)
+    audit_empty          usulan 0.006 [0.000; 0.000]  rms_gate 0.014 [0.000; 0.000]  selisih -0.008 [+0.000; +0.000] (seri 0.99; selisih > 0 di 0.00, < 0 di 0.01 armada)
+
+  5/22 pompa bermasalah (dasar acak 0.227)
+    prec_perlu_cek       usulan 0.791 [0.333; 1.000]  rms_gate 0.765 [0.333; 1.000]  selisih +0.026 [-0.333; +0.500] (seri 0.81; selisih > 0 di 0.13, < 0 di 0.06 armada)
+    prec_rusak           usulan 0.434 [0.000; 1.000]  rms_gate 0.388 [0.000; 1.000]  selisih +0.045 [-0.333; +0.667] (seri 0.59; selisih > 0 di 0.26, < 0 di 0.15 armada)
+    catch_at_k           usulan 0.774 [0.333; 1.000]  rms_gate 0.729 [0.333; 1.000]  selisih +0.044 [-0.333; +0.667] (seri 0.73; selisih > 0 di 0.19, < 0 di 0.08 armada)
+    any_sehat_in_audit   usulan 0.496 [0.000; 1.000]  rms_gate 0.533 [0.000; 1.000]  selisih -0.036 [-1.000; +1.000] (seri 0.90; selisih > 0 di 0.03, < 0 di 0.07 armada)
+    audit_empty          usulan 0.000 [0.000; 0.000]  rms_gate 0.002 [0.000; 0.000]  selisih -0.001 [+0.000; +0.000] (seri 1.00; selisih > 0 di 0.00, < 0 di 0.00 armada)
+
+runtime 30 s
